@@ -1,0 +1,16 @@
+.slide{
+    height: 60vh;
+    background-color: lightblue;
+}
+.timer{
+    height: 40vh;
+    background-color: lightgreen;
+}
+.about{
+    height: 100vh;
+    background-color: lightcoral;
+}
+.sponsors{
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+}
