@@ -1,3 +1,4 @@
+
 .slide{
     height: 60vh;
     background-color: lightblue;
@@ -13,4 +14,39 @@
 .sponsors{
     height: 100vh;
     background-color: lightgoldenrodyellow;
+}
+.rocket{
+    position: fixed;
+    bottom: 4vh;
+    left: 3vh;
+    transition: 5s;
+    img{
+        height: 10vh;
+        transition: 5s;
+    }
+    #fire{
+        display: none;
+        transition: 5s;
+    }
+}
+.rocket :hover{
+    transform: translateY(-100vh);
+    transition: all 3s ease;
+    cursor: pointer;
+    #fire{
+        display: inline;
+        transition: 3s;
+    }
+    #nofire{
+        display: none;
+        transition: 3s;
+    }
+    
+}
+.rocketlaunch{
+    position: fixed;
+    bottom: 1vh;
+    left: 2vh;
+    font-size: .6rem;
+    color: grey;
 }
