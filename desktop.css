@@ -7,7 +7,7 @@
     height: 40vh;
     background-color: lightgreen;
 }
-.about{
+.tracks{
     height: 100vh;
     background-color: lightcoral;
 }
@@ -49,4 +49,59 @@
     left: 2vh;
     font-size: .6rem;
     color: grey;
+}
+
+.trackheader{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+}
+
+.track1{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+
+}
+.trackdesc {
+
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 70%;
+    flex-direction: column;
+
+
+  
+}
+
+.track1image{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30px;
+}
+
+.trackheading1{
+    font-size: 20px;
+    margin-left: 33%;
+    color: white;
+}
+
+.trackdesc{
+    
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.track1image{
+    
+
 }
