@@ -57,6 +57,7 @@
     align-items: center;
     justify-content: center;
     top: 10px;
+    
 }
 
 .track1{
@@ -64,12 +65,13 @@
     flex-direction: row;
     margin: 50px 0;
 
+
 }
 .trackdesc {
 
     display: flex;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 35%;
     width: 70%;
     flex-direction: column;
 
@@ -83,12 +85,14 @@
     flex-direction: column;
     align-items: center;
     max-width: 30px;
+    margin-left: 15%;
 }
 
 .trackheading1{
     font-size: 20px;
     margin-left: 33%;
     color: white;
+    margin-left: 60%;
 }
 
 .trackdesc{
@@ -101,7 +105,40 @@
 
 
 
-.track1image{
+
+
+
+.track2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+
+
+}
+
+.track2image{
+    float: left;
+    left: 100px;
+    margin-left: 30%;
     
+    
+
+}
+
+.trackheading2{
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+}
+
+
+.trackdesc2 {
+
+    display: flex;
+    margin-top: 40px;
+    margin-right: 200px;
+    width: 63%;
+    float: right;
+    flex-direction: column;
 
 }
