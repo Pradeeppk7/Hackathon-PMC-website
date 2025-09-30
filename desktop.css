@@ -142,3 +142,111 @@
     flex-direction: column;
 
 }
+
+.schedule-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* --- Main Title --- */
+h1.main-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #BF360C; /* Reddish title color */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+/* --- Schedule Grid Layout --- */
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+}
+
+/* --- Day Column Styles --- */
+.day-column h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+.day-column .date {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+/* --- Event List Styles --- */
+.event-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.event-details {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.event-time {
+    font-weight: 600;
+}
+
+/* --- Circular Icons --- */
+.icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.icon-a { background-color: #4285F4; } /* Blue */
+.icon-b { background-color: #D32F2F; } /* Red */
+.icon-c { background-color: #F57C00; } /* Orange */
+.icon-d { background-color: #388E3C; } /* Green */
+
+/* --- Legend Styles --- */
+.legend {
+    margin-top: 3em;
+    padding-top: 2em;
+}
+
+.legend-list {
+    list-style: none;
+    padding: 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+/* --- Responsive Design for Mobile --- */
+@media (max-width: 768px) {
+    .schedule-grid {
+        grid-template-columns: 1fr; /* Stack columns */
+        gap: 3em;
+    }
+    body {
+        padding: 1.5em;
+    }
+}
