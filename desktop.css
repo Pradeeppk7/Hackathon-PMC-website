@@ -66,13 +66,21 @@
 }
 
 .slide {
-    height: 60vh;
-    background-color: lightblue;
+    margin-top: 10vh;
+    height: 70vh;
+    background-color: #e77a30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 50vh;
+    }
+
 }
 
 .timer {
     height: 40vh;
-    background-color: lightgreen;
+    background-color: rgb(242, 194, 147);
 }
 
 .tracks {
