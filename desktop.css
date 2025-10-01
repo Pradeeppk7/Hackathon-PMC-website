@@ -1,49 +1,125 @@
+#navbartop {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: top 0.3s;
+    padding: .1rem;
 
-.slide{
+   
+}
+
+
+ .registerbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+        margin-right: .5rem;
+        border-radius: 1vh;
+        height: 2.5rem;
+        width: 6rem;
+        background-color: #e77a30;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+        will-change: transform;
+        animation: zoomInOut 1.5s ease-in-out infinite;
+  }
+
+  .registerbtn:hover { 
+    background-color: #0c3053;
+        color: white;
+    animation-play-state: paused; }
+  
+  @keyframes zoomInOut {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+.buttononnav {
+    border: .8vh solid #0c3053;
+    transition: .3s;
+    margin-left: .5rem;
+    border-radius: 1vh;
+    height: 2.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: #e77a30;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+.buttononnav:hover {
+    transition: .3s;
+    transform: translatey(-.2rem);
+    background-color: #0c3053;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    a {
+        color: white;
+    }
+}
+
+.slide {
     height: 60vh;
     background-color: lightblue;
 }
-.timer{
+
+.timer {
     height: 40vh;
     background-color: lightgreen;
 }
-.tracks{
+
+.tracks {
     height: 100vh;
     background-color: lightcoral;
 }
-.sponsors{
+
+.sponsors {
     height: 100vh;
     background-color: lightgoldenrodyellow;
 }
-.rocket{
+
+.rocket {
     position: fixed;
     bottom: 4vh;
     left: 3vh;
     transition: 5s;
-    img{
+
+    img {
         height: 10vh;
         transition: 5s;
     }
-    #fire{
+
+    #fire {
         display: none;
         transition: 5s;
     }
 }
-.rocket :hover{
+
+.rocket :hover {
     transform: translateY(-100vh);
     transition: all 3s ease;
     cursor: pointer;
-    #fire{
+
+    #fire {
         display: inline;
         transition: 3s;
     }
-    #nofire{
+
+    #nofire {
         display: none;
         transition: 3s;
     }
-    
+
 }
-.rocketlaunch{
+
+.rocketlaunch {
     position: fixed;
     bottom: 1vh;
     left: 2vh;
@@ -51,22 +127,23 @@
     color: grey;
 }
 
-.trackheader{
+.trackheader {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 10px;
-    
+
 }
 
-.track1{
+.track1 {
     display: flex;
     flex-direction: row;
     margin: 50px 0;
 
 
 }
+
 .trackdesc {
 
     display: flex;
@@ -76,10 +153,10 @@
     flex-direction: column;
 
 
-  
+
 }
 
-.track1image{
+.track1image {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -88,15 +165,15 @@
     margin-left: 15%;
 }
 
-.trackheading1{
+.trackheading1 {
     font-size: 20px;
     margin-left: 33%;
     color: white;
     margin-left: 60%;
 }
 
-.trackdesc{
-    
+.trackdesc {
+
     font-size: 1rem;
     margin-bottom: 10px;
 }
@@ -108,7 +185,7 @@
 
 
 
-.track2{
+.track2 {
     display: flex;
     flex-direction: row;
     margin: 50px 0;
@@ -116,20 +193,21 @@
 
 }
 
-.track2image{
+.track2image {
     float: left;
     left: 100px;
     margin-left: 30%;
-    
-    
+
+
 
 }
 
-.trackheading2{
+.trackheading2 {
     font-size: 20px;
     color: white;
     margin-left: 40%;
 }
+
 
 
 .trackdesc2 {
@@ -153,7 +231,8 @@ h1.main-title {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #BF360C; /* Reddish title color */
+    color: #BF360C;
+    /* Reddish title color */
     letter-spacing: 0.2em;
     text-transform: uppercase;
     margin-bottom: 2em;
@@ -217,10 +296,26 @@ h1.main-title {
     font-size: 0.9rem;
 }
 
-.icon-a { background-color: #4285F4; } /* Blue */
-.icon-b { background-color: #D32F2F; } /* Red */
-.icon-c { background-color: #F57C00; } /* Orange */
-.icon-d { background-color: #388E3C; } /* Green */
+.icon-a {
+    background-color: #4285F4;
+}
+
+/* Blue */
+.icon-b {
+    background-color: #D32F2F;
+}
+
+/* Red */
+.icon-c {
+    background-color: #F57C00;
+}
+
+/* Orange */
+.icon-d {
+    background-color: #388E3C;
+}
+
+/* Green */
 
 /* --- Legend Styles --- */
 .legend {
@@ -243,9 +338,11 @@ h1.main-title {
 /* --- Responsive Design for Mobile --- */
 @media (max-width: 768px) {
     .schedule-grid {
-        grid-template-columns: 1fr; /* Stack columns */
+        grid-template-columns: 1fr;
+        /* Stack columns */
         gap: 3em;
     }
+
     body {
         padding: 1.5em;
     }
