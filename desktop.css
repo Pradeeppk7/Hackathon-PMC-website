@@ -79,15 +79,81 @@
 }
 
 .timer {
-    height: 60vh;
+    height: 30vh;
     background-color: rgb(255, 222, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.tracks {
+.clocking{
+    width: 60%;
+}
+#tracksection {
+}
+.accordion-item{
+    background-color: white;
+    border: none;
+    border-radius: 1vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 0;
+    .accordion-header{
+        border-color: none;
+        background-color: #0c3053;
+        color: white;
+        border-radius: 1vh;
+        font-size: 1.2rem;
+        font-weight: 600;
+        &:hover{
+            background-color: #e77a30 !important;
+            border-radius: 1vh !important;
+            border: 1rem #e77a30 !important;
+        }
+         &:active{
+            background-color: #e77a30;
+            color: white;
+            
+            border: .2rem #eba373;
+        }
+        &:focus{
+            background-color: #e77a30;
+            
+            border: .2rem #e77a30;
+        }
+    }
+    button{
+        background-color: white;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #0c3053;
+        &:hover{
+            background-color: #e77a30;
+            border-radius: 1vh;
+            border: .2rem #e77a30;
+        }
+        &:active{
+            background-color: #e77a30;
+            color: white;
+            
+            border: .2rem #eba373;
+        }
+        &:focus{
+            background-color: #e77a30;
+            
+            border: .2rem #e77a30;
+        }
+    }
+}
+#qa {
     height: 100vh;
-    background-color: lightcoral;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.accor{
+    width: 60%;
+}
 .sponsors {
     height: 100vh;
     background-color: lightgoldenrodyellow;

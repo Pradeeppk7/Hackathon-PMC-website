@@ -12,18 +12,20 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="desktop.css">
-    
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar fixed-top" id="navbartop">
-        <div class="container-fluid"> <a class="navbar-brand" href="#"> <img src="assets/club_logo.png" style="height: 8vh; padding:0; margin-left:.5rem; " alt=""> </a> <button class="navbar-toggler"
+        <div class="container-fluid"> <a class="navbar-brand" href="#"> <img src="assets/club_logo.png"
+                    style="height: 8vh; padding:0; margin-left:.5rem; " alt=""> </a> <button class="navbar-toggler"
                 type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
                 aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navflexy" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0 " style="margin-left: 35vw;">
-                    <li class="nav-item buttononnav"> <a class="nav-link" aria-current="page" href="#slide">Home</a> </li>
+                    <li class="nav-item buttononnav"> <a class="nav-link" aria-current="page" href="#slide">Home</a>
+                    </li>
                     <li class="nav-item buttononnav"> <a class="nav-link" href="#timer">Link</a> </li>
                     <li class="nav-item buttononnav"> <a class="nav-link" href="#about">Tracks</a> </li>
                     <li class="nav-item buttononnav"> <a class="nav-link" href="#sponsors">Schedule</a> </li>
@@ -32,10 +34,10 @@
             </div>
         </div>
     </nav>
-    <div class="rocket" >
+    <div class="rocket">
         <a href="#slide">
-        <img src="assets/2.png" id="nofire" alt="" >
-        <img src="assets/1.png" id="fire" alt="" >
+            <img src="assets/2.png" id="nofire" alt="">
+            <img src="assets/1.png" id="fire" alt="">
         </a>
     </div>
     <div class="rocketlaunch">
@@ -43,10 +45,17 @@
     </div>
     <main>
         <section class="slide" id="slide">
-            <h1>Coming Soon !</h1><img src="assets/Undermaintenace.png"></section>
+            <h1>Coming Soon !</h1><img src="assets/Undermaintenace.png">
+        </section>
         <section class="timer" id="timer">
-           <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-j9rp" class="countdown-timer" data-style="flip2" data-timezone="America/Chicago" data-textcolor="#e46c21" data-date="2025-10-27 08:53" data-background="#e46c21" data-digitscolor="#fffcfa" data-unitscolor="#e46c21">Countdown Timer</a>
+            <div class="clocking">
+                <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+                <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="flip2"
+                    data-timezone="America/Chicago" data-textcolor="#e47d3b" data-date="2025-10-27 09:00"
+                    data-background="#e47d3b" data-digitscolor="#ffffff" data-unitscolor="#e47d3b">Starting in</a>
+            </div>
+        </section>
+        <section id="tracksection">
             <div>
                 <div class="track">
                     <h2 class="trackheader">TRACKS</h2>
@@ -54,29 +63,36 @@
                         <div class="track1">
                             <div class="track1desc">
                                 <p class="trackheading1">Social Equity & Inclusion</p>
-                                <p class="trackdesc">This track invites participants to develop technologies and tools that enhance access to essential resources for underserved communities.</p>
-                                <p class="trackdesc">Examples include platforms for accessible education, healthcare access, financial literacy, and community-driven development.</p>
+                                <p class="trackdesc">This track invites participants to develop technologies and tools
+                                    that
+                                    enhance access to essential resources for underserved communities.</p>
+                                <p class="trackdesc">Examples include platforms for accessible education, healthcare
+                                    access,
+                                    financial literacy, and community-driven development.</p>
                             </div>
                             <div class="track1image">
                                 <img height="250px" src="assets/track1.png" alt="">
                             </div>
-                            
-                            
+
+
                         </div>
                         <div class="track2">
                             <div class="track2image">
                                 <img height="250px" src="assets/track1.png" alt="">
                             </div>
-                            
+
                             <div class="track2desc">
                                 <p class="trackheading2">Social Equity & Inclusion</p>
-                                <p class="trackdesc2">This track invites participants to develop technologies and tools that enhance access to essential resources for underserved communities.</p>
-                                <p class="trackdesc2">Examples include platforms for accessible education, healthcare access, financial literacy, and community-driven development.</p>
+                                <p class="trackdesc2">This track invites participants to develop technologies and tools
+                                    that
+                                    enhance access to essential resources for underserved communities.</p>
+                                <p class="trackdesc2">Examples include platforms for accessible education, healthcare
+                                    access, financial literacy, and community-driven development.</p>
                             </div>
-                            
-                            
+
+
                         </div>
-                        
+
 
 
 
@@ -89,145 +105,202 @@
 
             </div>
 
-        <div class="schedule-container">
-        <h1 class="main-title">Schedule</h1>
+            <div class="schedule-container">
+                <h1 class="main-title">Schedule</h1>
 
-        <div class="schedule-grid">
-            <div class="day-column">
-                <h2>Day 1</h2>
-                <p class="date">Thursday, October 23, 2025</p>
-                <ul class="event-list">
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Registration & Breakfast</span>
+                <div class="schedule-grid">
+                    <div class="day-column">
+                        <h2>Day 1</h2>
+                        <p class="date">Thursday, October 23, 2025</p>
+                        <ul class="event-list">
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Registration & Breakfast</span>
+                                    <span class="icon icon-a">A</span>
+                                </div>
+                                <span class="event-time">8:00 AM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Opening Ceremony</span>
+                                    <span class="icon icon-a">A</span>
+                                </div>
+                                <span class="event-time">10:00 AM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Hacking Starts</span>
+                                    <span class="icon icon-c">C</span>
+                                </div>
+                                <span class="event-time">11:00 AM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Lunch</span>
+                                    <span class="icon icon-b">B</span>
+                                </div>
+                                <span class="event-time">12:30 PM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Pre-Judging</span>
+                                    <span class="icon icon-c">C</span>
+                                </div>
+                                <span class="event-time">3:00 PM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Mentoring Session</span>
+                                    <span class="icon icon-c">C</span>
+                                </div>
+                                <span class="event-time">4:00 PM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Dinner</span>
+                                    <span class="icon icon-b">B</span>
+                                </div>
+                                <span class="event-time">6:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="day-column">
+                        <h2>Day 2</h2>
+                        <p class="date">Friday, October 24, 2025</p>
+                        <ul class="event-list">
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Breakfast</span>
+                                    <span class="icon icon-b">B</span>
+                                </div>
+                                <span class="event-time">8:00 AM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Hacking Ends</span>
+                                    <span class="icon icon-c">C</span>
+                                </div>
+                                <span class="event-time">11:00 AM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Judging</span>
+                                    <span class="icon icon-c">C</span>
+                                </div>
+                                <span class="event-time">11:00 AM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Lunch</span>
+                                    <span class="icon icon-a">A</span>
+                                </div>
+                                <span class="event-time">12:30 PM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Closing ceremony</span>
+                                    <span class="icon icon-a">A</span>
+                                </div>
+                                <span class="event-time">2:00 PM</span>
+                            </li>
+                            <li class="event-item">
+                                <div class="event-details">
+                                    <span>Awards</span>
+                                    <span class="icon icon-a">A</span>
+                                </div>
+                                <span class="event-time">2:30 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="legend">
+                    <ul class="legend-list">
+                        <li class="legend-item">
                             <span class="icon icon-a">A</span>
-                        </div>
-                        <span class="event-time">8:00 AM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Opening Ceremony</span>
-                            <span class="icon icon-a">A</span>
-                        </div>
-                        <span class="event-time">10:00 AM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Hacking Starts</span>
-                            <span class="icon icon-c">C</span>
-                        </div>
-                        <span class="event-time">11:00 AM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Lunch</span>
+                            <span>Wishnick Hall, South Dearborn Street, Chicago, IL</span>
+                        </li>
+                        <li class="legend-item">
                             <span class="icon icon-b">B</span>
-                        </div>
-                        <span class="event-time">12:30 PM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Pre-Judging</span>
+                            <span>McCormick Tribune Campus Center (MTCC)</span>
+                        </li>
+                        <li class="legend-item">
                             <span class="icon icon-c">C</span>
-                        </div>
-                        <span class="event-time">3:00 PM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Mentoring Session</span>
-                            <span class="icon icon-c">C</span>
-                        </div>
-                        <span class="event-time">4:00 PM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Dinner</span>
-                            <span class="icon icon-b">B</span>
-                        </div>
-                        <span class="event-time">6:00 PM</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="day-column">
-                <h2>Day 2</h2>
-                <p class="date">Friday, October 24, 2025</p>
-                <ul class="event-list">
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Breakfast</span>
-                            <span class="icon icon-b">B</span>
-                        </div>
-                        <span class="event-time">8:00 AM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Hacking Ends</span>
-                            <span class="icon icon-c">C</span>
-                        </div>
-                        <span class="event-time">11:00 AM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Judging</span>
-                            <span class="icon icon-c">C</span>
-                        </div>
-                        <span class="event-time">11:00 AM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Lunch</span>
-                            <span class="icon icon-a">A</span>
-                        </div>
-                        <span class="event-time">12:30 PM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Closing ceremony</span>
-                            <span class="icon icon-a">A</span>
-                        </div>
-                        <span class="event-time">2:00 PM</span>
-                    </li>
-                    <li class="event-item">
-                        <div class="event-details">
-                            <span>Awards</span>
-                            <span class="icon icon-a">A</span>
-                        </div>
-                        <span class="event-time">2:30 PM</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="legend">
-            <ul class="legend-list">
-                <li class="legend-item">
-                    <span class="icon icon-a">A</span>
-                    <span>Wishnick Hall, South Dearborn Street, Chicago, IL</span>
-                </li>
-                <li class="legend-item">
-                    <span class="icon icon-b">B</span>
-                    <span>McCormick Tribune Campus Center (MTCC)</span>
-                </li>
-                <li class="legend-item">
-                    <span class="icon icon-c">C</span>
-                    <span>Stuart Building, Chicago, IL</span>
-                </li>
-                <li class="legend-item">
-                    <span class="icon icon-d">D</span>
-                    <span>Paul V. Galvin Library, West 33rd Street, Chicago, IL</span>
-                </li>
-            </ul>
-        </div>
-
-
-
-
-
+                            <span>Stuart Building, Chicago, IL</span>
+                        </li>
+                        <li class="legend-item">
+                            <span class="icon icon-d">D</span>
+                            <span>Paul V. Galvin Library, West 33rd Street, Chicago, IL</span>
+                        </li>
+                    </ul>
+                </div>
         </section>
         <section class="sponsors" id="sponsors">
-            
-        </section>    
+
+        </section>
+
+        <section class="qa" id="qa">
+            <div class="accor">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item’s accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It’s also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item’s accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It’s also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It’s also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
